@@ -10,6 +10,8 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
+        // lab1
+
         supportFragmentManager.beginTransaction()
             .replace(R.id.container, MainFragment2())
             .commit()
